@@ -28,6 +28,5 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "mvCardPackageTests",
-            dependencies: ["mvCardPackage"]),
-    ]
+            dependencies: ["mvCardPackage"])]
 )
