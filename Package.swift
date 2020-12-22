@@ -25,7 +25,6 @@ let package = Package(
                 "demoViewController.swift",
                 "demoViewController.xib"
                 "loginDataViewController.swift"],
-            resources: ["1.png"],
             dependencies: []),
         .testTarget(
             name: "mvCardPackageTests",
