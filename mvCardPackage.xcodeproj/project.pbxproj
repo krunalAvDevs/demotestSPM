@@ -48,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		184DF554259082FA00F86D45 /* globalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFunction.swift; sourceTree = "<group>"; };
+		187449B92591C85600F6FCDC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		OBJ_12 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* mvCardPackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvCardPackageTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* mvCardPackageTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = mvCardPackageTests; sourceTree = SOURCE_ROOT; };
@@ -105,7 +106,7 @@
 			name = Products;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -116,13 +117,13 @@
 				OBJ_18 /* mvCardPackage */,
 				OBJ_19 /* README.md */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				OBJ_8 /* mvCardPackage */,
+				187449B92591C85600F6FCDC /* Media.xcassets */,
 			);
 			name = Sources;
 			sourceTree = SOURCE_ROOT;
@@ -203,7 +204,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
